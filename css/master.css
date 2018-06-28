@@ -1,0 +1,50 @@
+/*
+estilos base
+
+en las medidasd
+
+
+el font-size por defecto es de 16px
+osbre esto la medidas para rem se calculan sobre el root
+que es el html
+los valores del html se mantienen en px y los demas valores de @font-face {
+  se recomienda valores relativos de medida rem.
+  Para ser escalable el proyecto se recomienda para los anchos %
+  y para klas fuentes rem.
+
+
+
+  flex y float
+
+  la altura es la diferencia ppal ya que en flex mantienen el misma altura sin importar
+  el contenido.
+  en float el amnejo es manual
+
+  resolver los margin y padding en px para que los contenedores
+  aprovechen el tamaño
+
+
+
+
+AVERIGUAR
+ PAGINA DE LOADEER DE FACEBOOBK
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+spa
+<wbr>
+*/
+
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+
+  background-color: #ccc;
+
+
+
+}
+
+.top {
+  background: url( '../img/fondo.jpg' ) top center no-repeat,  url( '../img/fondo.png' ) center no-repeat;
+/*hasta aca controlo de img ruta carpetas*/
+
+}
