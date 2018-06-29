@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laboratorio 2</title>
+
+<style>
+* { box-sizing: border-box; }
+main {  background: url(imagenes/fondo.jpg) no-repeat left top ; min-height: 900px; background-size: contain; padding: 30px;  }
+header:first-of-type { display: flex; padding: 20px; }
+[class*="col"]{align-items: center;  }
+body { font: 100% Arial; }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.logo { width: 136px; height: 42px; overflow: hidden;  }
+.logo img { max-width: 100%; }
+nav.col-4 { display: flex; text-transform: uppercase; font-size: 0.8em; justify-content: center;  }
+nav.col-4 a {text-decoration: none; font-size: 0.9em; color: white; margin-left: 15px;  }
+nav.col-4 a  + span { transform: rotate(90deg); margin-left: 5px; }
+nav.col-4 a  + span:before { content: '>' ; color: white; font-size: 1.5em;  }
+.btn_principal { width: 80px; height: 35px;  margin:0 5px; background: transparent; border-radius: 10px; border: none; box-shadow: 0px 0px 0px 1px white; font-size: 0.7em; color: white;}
+.login { display: flex;justify-content: flex-end; }
+.principal { text-align: center; color: white; }
+h2 { font-size: 1.5em; }
+h3 {text-align: center; margin-bottom: 0;}
+.servicios { display: flex; justify-content: center; margin-top: 20px; }
+
+.caja { width: 20%; height: 240px; overflow: hidden; background: lightgray; border-radius: 10px; margin-left: 10px; padding: 15px; font-size: 0.9em;}
+</style>
+</head>
+<body>
+
+<main class="col-12">
+<header>
+<section class="col-4">
+<div class="logo">
+<img src="imagenes/logo.svg"></div>
+ </section>
+<nav class="col-4">
+<a href="#">Personal</a><span></span>
+<a href="#">Negocios</a><span></span>
+<a href="#">Solicitar Pago</a><span></span>
+</nav>
+
+
+<section class="col-4 login">
+<button class="btn_principal">inicia sesion </button>
+<button class="btn_principal"> abrir cuenta </button>
+ </section>
+
+</header>
+
+<section class="col-12 principal">
+<h2> Unite gratis a PayPal </h2>
+<p>
+Comenzá con uno de estos dos tipos de cuentas </p>
+
+</section>
+
+<section class="col-12 servicios">
+<section class="col-6 caja">
+<h3>
+Servicio 1
+</h3>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehend </p>
+
+</section>
+
+<section class="col-6 caja">
+
+<h3>
+Servicio 2
+</h3>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute iru</p>
+
+</section>
+</section>
+
+<section class="col-12 principal">
+
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+</section>
+</main>
+
+</body>
+</html>

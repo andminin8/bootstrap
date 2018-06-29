@@ -33,18 +33,23 @@ spa
 <wbr>
 */
 
+html {
+  font-size: 16px;
+  font-family: fantasy;
+}
 body {
   margin: 0 auto;
   padding: 0 auto;
 
   background-color: #ccc;
-
-
-
 }
-
+.col-12 {
+  width: 100%;
+}
 .top {
-  background: url( '../img/fondo.jpg' ) top center no-repeat,  url( '../img/fondo.png' ) center no-repeat;
-/*hasta aca controlo de img ruta carpetas*/
-
+  background: url( 'img/fondo.jpg' ) top no-repeat/*,
+              url( '../img/logo.png' )*/;
+  display: block;
+  margin: 0 auto;
+  height: 50%;
 }
