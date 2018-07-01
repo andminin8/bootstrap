@@ -51,7 +51,12 @@ body {
     font: 1.4rem 'Roboto Condensed', sans-serif;
 
 }
+a {
+  text-decoration: none;
+  color: #ffffff;
 
+  margin: 15px 5px;
+}
 /*
     DESKTOP
 */
@@ -65,6 +70,12 @@ main {
 section {
 
   margin: 0;
+}
+header {
+  width: 100%;
+  margin: 15px 5px;
+  background-color: #ff3333;
+  height: 50px;
 }
 .top {
 
@@ -111,14 +122,12 @@ section {
   margin: 21PX;
   display: flex;
   flex-wrap: wrap;
-
+  background-color: #ffffff;
   width: 100%;
   max-width: 950px;
 }
-header {
-  margin: auto;
-  background-color: #ff3333;
-  height: 50px;
+.articulos header {
+  margin-bottom: 10%;
 }
 h1 {
   margin: 2px;
@@ -128,11 +137,53 @@ h1 {
   text-transform: uppercase;
 }
 p {
-  margin: 50px 0;
+  display: block;
+  margin: 55px 0;
   text-align: left;
   font-size: 1.25rem;
 }
 p strong {
+  color: #ff0000;
+}
+h3 {
+  width: 100%;
+  height: 40px;
+  background-color: #ff3333;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+}
+.personajes {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  max-height: 1280px;
+  background-color: #990000;
+  box-sizing: border-box;
+
+
+}
+.personajes  p {
+  margin: 15px;
+  font-size: .85rem;
+  color: #ffffff;
+}
+.box {
+  border: 3px solid #ffffff;
+}
+.imgArticle {
+  width: 100%;
+  max-width: 440px;
+  height: 100%;
+  max-height: 710px;
+
+
+}
+
+button {
+  width: 100%;
+  background-color: #ffffff;
   color: #ff0000;
 }
 
