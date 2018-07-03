@@ -96,11 +96,11 @@
           	<article>
           		<header>
           			<h1>Noticia 1</h1>
-          			<p>Texto descriptivo 1</p>
+                <img class="imgPeliculas" src="img/avengers_iii.jpg" alt="capitan america en lucha">
           		</header>
           		<footer>
-              		    <p>Publicado el XXX del XXX de XXX</p>
-            		</footer>
+              	<p>Publicado el XXX del XXX de XXX</p>
+            	</footer>
           	</article>
 
           	<article>
