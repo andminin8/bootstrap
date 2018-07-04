@@ -23,6 +23,13 @@ main.container {
 
 
 }
+div.item-uno {
+  display: block;
+  width: 100%;
+}
+div.item-uno p {
+  width: 100%;
+}
 section.articulos {
   margin: 5PX;
   margin-top: 0;
