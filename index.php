@@ -21,12 +21,15 @@
       </nav>
       <main class="container" id="miMain">
         <section class="articulos uno">
-          <header>
-            <h1>los vengadores ( equipo )</h1>
-            <p>
-              <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </header>
+          <div class="item-uno">
+            <header>
+              <h1>los vengadores ( equipo )</h1>
+              <p>
+                <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </header>
+          </div>
+
 
             <article class="personajes primero">
               <div class="box">
@@ -96,8 +99,8 @@
           	<article>
           		<header>
           			<h1>Noticia 1</h1>
-                <img class="imgPeliculas" src="img/avengers_iii.jpg" alt="capitan america en lucha">
-          		</header>
+                <!--<img class="imgPeliculas" src="img/avengers_iii.jpg" alt="capitan america en lucha">
+          		--></header>
           		<footer>
               	<p>Publicado el XXX del XXX de XXX</p>
             	</footer>
