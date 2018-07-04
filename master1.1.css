@@ -1,0 +1,61 @@
+/*
+  *ESTILOS MASTER
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+
+/*
+  *HOJAS DE ESTILOS
+*/
+
+@import "miMenu.css";
+@import "miMain.css";
+/*
+  ESTANDARES GENERALES
+*/
+
+html,
+body  {
+
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 auto;
+
+
+}
+body {
+
+    margin: 0;
+    background-color: #ffffff;
+    font: 1.4rem 'Roboto Condensed', sans-serif;
+
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+  margin: 15px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    DESKTOP
+*/
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1370px;
+}
